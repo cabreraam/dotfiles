@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-tmux new-session -t "dio" \; \
+tmux new-session -t "rename-me" \; \
   send-keys 'conda activate aqumen' C-m \; \
   send-keys 'cd ~/Data/3_Resources/qci' C-m \; \
   rename-window "code" \; \
