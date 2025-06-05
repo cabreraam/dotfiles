@@ -15,3 +15,12 @@ git switch anthony
 > [!IMPORTANT]
 > TODO: submodule the above repo here
 
+## lazygit
+
+Make sure to soft link [`lazygit.config.yml`](/lazygit.config.yml) to
+`~/.config/lazygit/config.yml`, e.g., 
+
+```
+cd ~/.config/lazygit
+ln -s /path/to/lazygit.config.yml ./config.yml
+```
